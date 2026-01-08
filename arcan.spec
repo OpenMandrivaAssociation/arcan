@@ -42,6 +42,7 @@ BuildRequires:	pkgconfig(xcb-util)
 BuildRequires:	pkgconfig(xcb-xfixes)
 BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	%mklibname -d mupdf
+BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	pkgconfig(wayland-server)
 BuildRequires:	wayland-tools
 
