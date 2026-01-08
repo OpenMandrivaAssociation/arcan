@@ -38,6 +38,7 @@ BuildRequires:	pkgconfig(libvncserver)
 BuildRequires:	pkgconfig(xcb)
 BuildRequires:	pkgconfig(xcb-composite)
 BuildRequires:	pkgconfig(xcb-icccm)
+BuildRequires:	pkgconfig(xcb-util)
 BuildRequires:	pkgconfig(xcb-xfixes)
 BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	%mklibname -d mupdf
@@ -76,7 +77,6 @@ surprise in terms of API design.
 %{_bindir}/arcan-net-session
 %{_bindir}/arcan_db
 %{_bindir}/arcan_frameserver
-%{_bindir}/arcan_xwm
 %{_bindir}/arcan_headless
 %{_bindir}/arcan_sdl
 
@@ -136,4 +136,5 @@ Support for running arcan inside Wayland
 %{_datadir}/arcan/scripts/builtin/wayland.lua
 %{_datadir}/arcan/appl/console/wayland_client.lua
 %{_bindir}/arcan-wayland
+%{_bindir}/arcan_xwm
 %{_mandir}/man1/arcan-wayland.1*
