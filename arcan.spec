@@ -59,9 +59,6 @@ surprise in terms of API design.
 %prep
 %autosetup -p1 -n %{name}/src
 
-%install -a
-%libpackages
-
 %files
 %doc %{_docdir}/arcan
 
@@ -106,6 +103,7 @@ surprise in terms of API design.
 %package devel
 Summary: Development files for the Arcan UI framework
 Group: Development/Libraries
+Requires: %{name} = %{EVRD}
 
 %description devel
 Development files for the Arcan UI framework
