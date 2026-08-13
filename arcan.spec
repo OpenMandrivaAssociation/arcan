@@ -1,6 +1,6 @@
 Name:		arcan
 Version:	0.7.1
-Release:	1
+Release:	2
 Source0:	https://codeberg.org/letoram/arcan/archive/0.7.1.tar.gz
 Summary:	Development framework for UIs/Desktop Environments
 URL:		https://arcan-fe.com/
